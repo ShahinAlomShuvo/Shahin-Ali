@@ -3,7 +3,7 @@ const Button = ({ name, action }) => {
     <>
       <button
         onClick={action}
-        className='btn bg-green-300 border-none uppercase md:px-8  font-semibold'
+        className='btn bg-[#529180] border-none uppercase md:px-8  font-semibold'
       >
         {name}
       </button>
