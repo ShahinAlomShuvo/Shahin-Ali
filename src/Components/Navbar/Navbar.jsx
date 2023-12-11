@@ -56,7 +56,15 @@ const Navbar = () => {
                   aria-label='close sidebar'
                   className='drawer-overlay'
                 ></label>
-                <ul className='menu p-4 w-80 min-h-full bg-[#001E2B] '>
+
+                <NavLink
+                  to={"/"}
+                  className='text-green-300 font-bold text-2xl md:text-3xl z-20 px-6 pt-6'
+                >
+                  Shahin Ali
+                </NavLink>
+
+                <ul className='menu p-4 w-80 min-h-full bg-[#001E2B] py-14'>
                   {navLinks}
                 </ul>
               </div>
