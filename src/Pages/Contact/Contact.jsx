@@ -15,9 +15,9 @@ const Contact = () => {
             <h2 className='text-2xl font-semibold text-white'>
               Contact Information
             </h2>
-            <p className='text-gray-500 font-semibold w-[80%] '>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A omnis,
-              iusto harum possimus non praesentium qui facere.
+            <p className='text-gray-500 font-semibold pb-4 w-[80%] '>
+              Feel Free to contact me for any queries or information. <br />
+              Iam always here for your concern
             </p>
             <span className='absolute w-36 border-4 border-[#417E6D]  rounded mt-2'></span>
           </div>

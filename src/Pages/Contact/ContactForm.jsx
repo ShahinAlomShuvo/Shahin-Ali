@@ -3,7 +3,7 @@ import Button from "../../Components/Button/Button";
 const ContactForm = () => {
   return (
     <div className='p-8  border border-gray-500 rounded bg-[#1B2336]'>
-      <form className='space-y-4'>
+      <form className='space-y-3'>
         {/* name  */}
         <label className='form-control w-full '>
           <div className='label'>
@@ -52,7 +52,7 @@ const ContactForm = () => {
           </div>
 
           <textarea
-            rows={5}
+            rows={4}
             className='textarea textarea-success  bg-[#1B2335] border-gray-500 text-gray-200'
             placeholder='Enter your message....'
           ></textarea>
