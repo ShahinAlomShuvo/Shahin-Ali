@@ -11,8 +11,8 @@ const Resume = () => {
   return (
     <>
       <SectionHeader header={"Resume"} subHeader={"My Resume"}></SectionHeader>
-      <div>
-        <h3 className='flex justify-center gap-4 items-center text-4xl py-10 text-gray-500'>
+      <div className='px-4 md:0'>
+        <h3 className='flex justify-center gap-4 items-center text-2xl md:text-4xl py-10 text-gray-500'>
           <FaGraduationCap className='text-[#418171]' size={40} />
           Educational Qualification
         </h3>
@@ -102,7 +102,7 @@ const Resume = () => {
 
           <div>
             <div>
-              <h2 className='flex justify-center gap-4 items-center text-4xl py-10 text-gray-500'>
+              <h2 className='flex justify-center gap-4 items-center text-2xl md:text-4xl py-10 text-gray-500'>
                 <FaBriefcase className='text-[#418171]' />
                 Working Experience
               </h2>

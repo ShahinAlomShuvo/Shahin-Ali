@@ -9,7 +9,7 @@ const Contact = () => {
         header={"Contact"}
         subHeader={"Contact Us"}
       ></SectionHeader>
-      <div className='grid md:grid-cols-12  py-10 container mx-auto'>
+      <div className='grid md:grid-cols-12 gap-5 py-10 container mx-auto px-4 md:0'>
         <div className='space-y-8 col-span-5'>
           <div className='space-y-2 pb-10'>
             <h2 className='text-2xl font-semibold text-white'>
@@ -23,35 +23,37 @@ const Contact = () => {
           </div>
 
           {/* contact with phone  */}
-          <div className='flex gap-5 items-center p-5 text-white border border-gray-500 rounded w-[80%] bg-[#1B2336]'>
+          <div className='flex gap-5 items-center p-5 text-white border border-gray-500 rounded w-[98%] md:w-[80%] bg-[#1B2336]'>
             <div className='text-[#65C29C] bg-[#3A505D] p-6 rounded-full'>
               <FaPhone size={26} />
             </div>
             <div>
               <h5 className='text-xl font-semibold'>Contact on phone</h5>
-              <p className='phoneNumber'>+88 01723-981861</p>
+              <p className='text-sm md:text-base'>+88 01723-981861</p>
             </div>
           </div>
 
           {/* contact with email  */}
-          <div className='flex gap-5 items-center p-5 text-white border border-gray-500 rounded w-[80%] bg-[#1B2336]'>
+          <div className='flex gap-5 items-center p-5 text-white border border-gray-500 rounded w-[98%] md:w-[80%] bg-[#1B2336]'>
             <div className='text-[#65C29C] bg-[#3A505D] p-6 rounded-full'>
               <FaEnvelope size={26} />
             </div>
             <div>
               <h5 className='text-xl font-semibold'>Contact on Email</h5>
-              <p className='phoneNumber'>shahinalomshuvo94@gmail.com</p>
+              <p className='text-sm md:text-base'>
+                shahinalomshuvo94@gmail.com
+              </p>
             </div>
           </div>
 
           {/* contact Address  */}
-          <div className='flex gap-5 items-center p-5 text-white border border-gray-500 rounded w-[80%] bg-[#1B2336]'>
+          <div className='flex gap-5 items-center p-5 text-white border border-gray-500 rounded w-[98%] md:w-[80%] bg-[#1B2336]'>
             <div className='text-[#65C29C] bg-[#3A505D] p-6 rounded-full'>
               <FaHouse size={26} />
             </div>
             <div>
               <h5 className='text-xl font-semibold'>Contact Address</h5>
-              <p className='phoneNumber'>Rajshahi,Bangladesh</p>
+              <p className='text-sm md:text-base'>Rajshahi,Bangladesh</p>
             </div>
           </div>
         </div>

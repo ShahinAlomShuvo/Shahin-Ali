@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className='container mx-auto'>
       <SectionHeader header={"about"} subHeader={"about me"}></SectionHeader>
-      <div className='grid md:grid-cols-2 gap-16  py-20'>
+      <div className='grid md:grid-cols-2 gap-16 px-4 md:px-0  py-20'>
         <div>
           <img
             className='ring-8 ring-[#417E6D] rounded '

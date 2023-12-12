@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
       <SectionHeader header={"Skills"} subHeader={"My Skills"}></SectionHeader>
-      <div className='flex justify-between container mx-auto px-10 py-20'>
+      <div className='flex flex-wrap gap-5 justify-between container mx-auto px-10 py-20'>
         <SkillBox skill={[0, 80]} title={"UI/UX Design"}></SkillBox>
         <SkillBox skill={[0, 95]} title={"Front-end Development"}></SkillBox>
         <SkillBox skill={[0, 55]} title={"Back-end Development"}></SkillBox>
