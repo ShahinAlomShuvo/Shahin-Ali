@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "DishDynamo",
+    "type": " E-Commerce Website",
+    "image": "/src/assets/images/dishDynamo.png",
+    "live_link": "https://dishdynamo-c649f.web.app/"
+  },
+  {
+    "id": 2,
+    "title": "ShopNThread",
+    "type": "Brand Shop E-Commerce",
+    "image": "/src/assets/images/shopNThread.png",
+    "live_link": "https://shopnthread.web.app/"
+  },
+  {
+    "id": 3,
+    "title": "Yoga Fusion",
+    "type": "Yoga Course",
+    "image": "/src/assets/images/yogafusion.png",
+    "live_link": "https://yogafusion-4a06d.web.app/"
+  }
+]
