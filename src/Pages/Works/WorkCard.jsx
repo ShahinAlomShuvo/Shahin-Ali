@@ -10,7 +10,7 @@ const WorkCard = ({ project }) => {
     >
       <div className='overflow-hidden'>
         <img
-          className='w-full h-64 object-cover group-hover:scale-125 transition ease-in-out duration-1000 rounded'
+          className='w-full h-48 lg:h-64 object-cover group-hover:scale-125 transition ease-in-out duration-1000 rounded'
           src={image}
         />
       </div>

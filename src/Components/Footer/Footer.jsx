@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <hr />
-      <div className='flex flex-wrap gap-5 justify-center md:justify-between items-center container mx-auto py-8'>
+      <div className='flex flex-wrap gap-5 justify-center md:justify-between items-center container mx-auto px-4 lg:px-0 py-8'>
         <Icons></Icons>
         <div>
           <p className='text-gray-500 font-semibold'>

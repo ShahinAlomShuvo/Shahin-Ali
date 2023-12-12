@@ -9,7 +9,7 @@ const Contact = () => {
         header={"Contact"}
         subHeader={"Contact Us"}
       ></SectionHeader>
-      <div className='grid md:grid-cols-12 gap-5 py-10 container mx-auto px-4 md:0'>
+      <div className='grid lg:grid-cols-12 gap-5 py-10 container mx-auto px-4 md:0'>
         <div className='space-y-8 col-span-5'>
           <div className='space-y-2 pb-10'>
             <h2 className='text-2xl font-semibold text-white'>
