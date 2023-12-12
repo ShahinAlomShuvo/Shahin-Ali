@@ -39,9 +39,8 @@ const Resume = () => {
                 </h3>
                 <h4 className='timelineSubtitle'>Taherpur College</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  consectetur donec gravida ullamcorper cum id. Sit viverra
-                  donec in ornare euismod.
+                  I Completed my Higher Secondary Certificate from Taherpur
+                  College in the Science Department.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -65,9 +64,8 @@ const Resume = () => {
                 </h3>
                 <h4 className='timelineSubtitle'>National University</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  consectetur donec gravida ullamcorper cum id. Sit viverra
-                  donec in ornare euismod.
+                  I Completed my Graduation from National University Of
+                  Bangladesh.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -89,11 +87,7 @@ const Resume = () => {
                   Masters Of Social Science
                 </h3>
                 <h4 className='timelineSubtitle'>National University</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  consectetur donec gravida ullamcorper cum id. Sit viverra
-                  donec in ornare euismod.
-                </p>
+                <p>Iam Currently In MSS Program In National University</p>
               </VerticalTimelineElement>
 
               <VerticalTimelineElement
@@ -137,11 +131,10 @@ const Resume = () => {
                 <h3 className='text-4xl text-[#529180] font-semibold pb-2'>
                   UI/UX Designer
                 </h3>
-                <h4 className='timelineSubtitle'>Abc Company.</h4>
+                {/* <h4 className='timelineSubtitle'>Abc Company.</h4> */}
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  consectetur donec gravida ullamcorper cum id. Sit viverra
-                  donec in ornare euismod.
+                  I have a Strong learning experience in UI/UX. I Personally
+                  design so many web templates based on UI/UX.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -164,11 +157,11 @@ const Resume = () => {
                 <h3 className='text-4xl text-[#529180] font-semibold pb-2'>
                   Front-end Developer
                 </h3>
-                <h4 className='timelineSubtitle'>Abc Company.</h4>
+                {/* <h4 className='timelineSubtitle'>Abc Company.</h4> */}
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  consectetur donec gravida ullamcorper cum id. Sit viverra
-                  donec in ornare euismod.
+                  I am a frontend web developer. I can provide clean code and
+                  pixel perfect design. I also make website more & more
+                  interactive with web animations.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -191,11 +184,12 @@ const Resume = () => {
                 <h3 className='text-4xl text-[#529180] font-semibold pb-2'>
                   Back-end Developer
                 </h3>
-                <h4 className='timelineSubtitle'>Def Company.</h4>
+                {/*  <h4 className='timelineSubtitle'>Def Company.</h4> */}
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  consectetur donec gravida ullamcorper cum id. Sit viverra
-                  donec in ornare euismod.
+                  Dedicated and detail-oriented MERN Stack Developer, passionate
+                  about creating innovative applications. Proficient in MongoDB,
+                  Express.js, React, and Node.js, adept at delivering scalable
+                  and user-centric solutions.
                 </p>
               </VerticalTimelineElement>
 
